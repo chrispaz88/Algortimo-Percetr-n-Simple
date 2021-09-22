@@ -1,1 +1,7 @@
-# Algortimo-Percetr-n-Simple
+# Algortimo-Percetron-Simple
+En  el  campo  de  la  salud,  debido  a  gran  fluctuación  de  pacientes,  siempre  es  de  utilidad automatizar procesos, atenciones a clientes o diagnósticos médicos. Desde el surgimiento de la tecnología se han creado algoritmos que permitan automatizar estos procesos, en este caso, nos centraremos en la emisión de diagnósticos médicos con gran confiabilidad. Para esto, se utilizará el algoritmo perceptrón simple, que es forma más simple de las redes neuronales, este algoritmo se encargará de aprender de un conjunto de datos reales y con sentido (que dentro de la medicina serán parámetros determinantes para realizar los diagnósticos médicos), y será capaz de emitir resultados lógicos. 
+# LIMITACIONES DEL PROGRAMA
+- El  perceptrón  siempre  realiza  su  entrenamiento  en  base  a  la  matriz puesta  por  el programador con una muestra de 20 pacientes, por lo que al utilizar una cantidad baja de datos el perceptrón existe una posibilidad que pueda emitir resultados erróneos.
+- Para aumentar el número de datos frente al entrenamiento del perceptrón se debe hacerlo desde la programación por parte del desarrollador cuando modifique la matriz de valores ejemplo inicial y limita a la mejoría del programa por parte del usuario.
+- Los diagnósticos obtenidos por parte del usuario no se almacenan en ningún tipo de archivo o sistema de almacenamiento por lo que cuando el se reinicie el programa o el diagnostico de un nuevo paciente estos resultados se perderán.   
+- El  usuario  deberá  ingresar  manualmente  cada  valor  del  paciente,  limitando  el  ingreso eficiente y  masivo de  datos  pertenecientes  a  diferentes  pacientes,  ahorrando  tiempo  y recursos.
